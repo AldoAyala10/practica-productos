@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+form{
+    margin-top: 20px;
+    width: 310px;
+    box-shadow: 0 0 20px rgb(213, 227, 50);
+    padding: 30px;
+    border-radius: 7px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 7px;
+    background-color: rgb(235, 237, 218);
+    border: 0px;
+    border-radius: 5px;
+    outline-color: rgb(216, 221, 58);
+    width: 80%;
+}
+button{
+    margin-top: 20px;
+    padding: 7px;
+    background-color: rgb(236, 234, 118);
+    color: rgb(16, 15, 12);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(253, 255, 218);
+}
+.correcto{
+    background-color: rgb(155, 246, 160);
+    border: 1px solid green;
+}
+
+.error{
+    background-color: rgb(236, 190, 190);
+    border: 1px solid red;
+}
+
+.circleCrossNombre, .circleCrossCelular, .circleCrossCorreo, .circleCrossDescripcion, .circleCrossPrecio{
+    margin-left: 5px;
+    color: rgb(255, 0, 0);
+}
+
+.ocultar{
+visibility: hidden;
+}
+
+.mensajeNombre, .mensajeCelular, .mensajeCorreo, .mensajeDescripcion, .mensajePrecio{
+    color: rgb(168, 0, 0);
+    font-size: small;
+}
+
+.circleCheckNombre, .circleCheckCelular, .circleCheckCorreo, .circleCheckDescripcion, .circleCheckPrecio{
+    color: rgb(0, 190, 16);
+}
